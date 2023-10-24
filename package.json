@@ -1,0 +1,20 @@
+{
+  "name": "chaussettes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app/index",
+    "dev": "node-dev app/index --clear --notify=false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-dev": "^8.0.0"
+  }
+}

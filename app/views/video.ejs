@@ -1,0 +1,10 @@
+<%- include("partials/head") %>
+<h2 class="mb-3 text-sm"><%= video.title %></h2>
+    <div class="ratio ratio-16x9">
+        <iframe src="<%= video.iframe%>" allowfullscreen></iframe>
+    </div>
+
+    <div class="mt-5 d-flex justify-content-center align-items-center">
+        <a class="btn btn-dark btn-lg" href="/">Retour aux épisodes</a>
+    </div>
+<%- include("partials/footer") %>

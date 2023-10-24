@@ -1,0 +1,11 @@
+<%- include("partials/head") %>
+<div class="row g-3">
+    <% for (video of videos){%>
+        <div class="col-md-4">
+            <a href="/videos/<%= video.slug %>">
+                <img class="video-preview" src="<%= video.img %>">
+            </a>
+        </div>
+    <% } %>
+</div>
+<%- include("partials/footer") %>
